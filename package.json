@@ -19,7 +19,8 @@
     "format:package": "prettier-package-json --write",
     "format:prettier": "prettier --write \"**/*.{js,json,md,yml}\" \".editorconfig\" \"LICENSE\"",
     "lint": "eslint ./",
-    "validate": "npm run lint"
+    "validate": "npm run lint",
+    "test": "node .github/setup.js"
   },
   "dependencies": {
     "@typescript-eslint/parser": "^4.4.1",
